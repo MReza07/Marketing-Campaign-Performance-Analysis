@@ -1,6 +1,4 @@
 ## 📊 Marketing Campaign Performance Report
-**Power BI dashboard analyzing marketing campaign performance across channels, regions, budgets, and time — to surface what drives campaign success.**
-
 
 A Power BI Dashboard Project
 
@@ -15,14 +13,13 @@ The dashboard provides clear visibility into success rates, audience reach, conv
 
 ## 📝 Project Summary
 
-| Section             | Summary                                            |
-| ------------------- | -------------------------------------------------- |
-| **Dashboard**       | Marketing Campaign Performance Report                           |
-| **Tools**           | Power BI, Power Query, DAX                         |
-| **Key KPIs**        | Total Campaigns, Average Audience Size, Average Budget,Overall Campaign Success Rate                 |
-| **Business Output** | marketing campaign performance across multiple dimensions
+| Section | Summary |
+|---|---|
+| **Dashboard** | Marketing Campaign Performance Report |
+| **Tools** | Power BI, Power Query, DAX |
+| **Key KPIs** | Total Campaigns, Average Audience Size, Average Budget, Campaign Success Rate |
+| **Business Output** | Marketing campaign performance across multiple dimensions |
 
-## 🎯 Key Features
 
 Interactive Power BI dashboard with slicers for dynamic filtering
 
@@ -68,37 +65,55 @@ North region achieved the highest success rate (67%).
 
 Higher budgets generally correlate with higher campaign success.
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 │── Dataset/
 
-│   └── Marketing CamPaign Preformance Dataset.xlsx
+│ └── Marketing Campaign Performance Dataset.xlsx
 │
 │── PBIX/
 
-│   └── Marketing Campaign project.pbix
+│ └── Marketing Campaign project.pbix
 │
-│── Dashboard Overview/
+│── Screenshots/
 
-│   ├── Marketing CamPaign Preformance Report.PNG
+│ ├── Marketing Campaign Preformance Report.PNG
 
-│   ├── Campaign success By Budget.PNG
+│ ├── Campaign success By Budget.PNG
 
-│   ├── Campaign success By Channel.PNG
+│ ├── Campaign success By Channel.PNG
 
-│   ├── Campaign success By Region.PNG
+│ ├── Campaign success By Region.PNG
 
-│   └── Campaign success By Budget & time .PNG
+│ └── Campaign success By Budget & time.PNG
 
 └── README.md
 
 ## 📐 Sample DAX Measures
 
-Campaign success = CALCULATE(COUNTROWS(predictive_campaign_success),predictive_campaign_success[Campaign_Success]=1)
+```dax
+Campaign success = CALCULATE(COUNTROWS(predictive_campaign_success), predictive_campaign_success[Campaign_Success] = 1)
 
-AVG of Audience_Size = AVERAGE(predictive_campaign_success[Audience_Size])
+Avg Audience = AVERAGE(predictive_campaign_success[Audience_Size])
 
-campaign success rate = DIVIDE([Campaign success],[Number of Campaign])
+Campaign Success Rate = DIVIDE([Campaign success], [Number of Campaign])
+
+## Data Dictionary
+
+
+| Column Name | Description |
+|---|---|
+| Campaign_ID | Unique campaign identifier |
+
+| Channel | Marketing channel (Email, Radio, TV, etc.) |
+
+| Audience_Size | Estimated audience reached |
+
+| Budget | Campaign budget |
+
+| Duration_Days | Campaign duration in days |
+
+| Campaign_Success | Binary target (1 = success, 0 = no) |
 
 
 ## 🛠 Tools & Technologies
