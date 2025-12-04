@@ -1,4 +1,6 @@
 ## 📊 Marketing Campaign Performance Report
+**Power BI dashboard analyzing marketing campaign performance across channels, regions, budgets, and time — to surface what drives campaign success.**
+
 
 A Power BI Dashboard Project
 
