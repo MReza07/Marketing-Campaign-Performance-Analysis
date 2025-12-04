@@ -100,7 +100,6 @@ Campaign Success Rate = DIVIDE([Campaign success], [Number of Campaign])
 
 ## Data Dictionary
 
-
 | Column Name | Description |
 |---|---|
 | Campaign_ID | Unique campaign identifier |
@@ -114,7 +113,6 @@ Campaign Success Rate = DIVIDE([Campaign success], [Number of Campaign])
 | Duration_Days | Campaign duration in days |
 
 | Campaign_Success | Binary target (1 = success, 0 = no) |
-
 
 ## 🛠 Tools & Technologies
 
@@ -145,7 +143,6 @@ Open the downloaded .pbix file
 3. View Dataset (Optional)
 
 Download the dataset from the Dataset/ folder
-
 
 ## 📜 License
 
