@@ -90,13 +90,12 @@ Higher budgets generally correlate with higher campaign success.
 └── README.md
 
 ## 📐 Sample DAX Measures
-
 ```dax
 Campaign success = CALCULATE(COUNTROWS(predictive_campaign_success), predictive_campaign_success[Campaign_Success] = 1)
-
 Avg Audience = AVERAGE(predictive_campaign_success[Audience_Size])
-
 Campaign Success Rate = DIVIDE([Campaign success], [Number of Campaign])
+
+
 
 ## Data Dictionary
 
