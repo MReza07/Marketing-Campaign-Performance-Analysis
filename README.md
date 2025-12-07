@@ -9,7 +9,7 @@ The dashboard provides clear visibility into success rates, audience reach, conv
 
 ## 📷 Dashboard Preview
 
-#👉 View Dashboard https://github.com/MReza07/Marketing-Campaign-Performance-Analysis/tree/main/Schreenshots     
+👉 View Dashboard https://github.com/MReza07/Marketing-Campaign-Performance-Analysis/tree/main/Schreenshots     
 
 
 ## 📝 Project Summary
@@ -70,11 +70,14 @@ Higher budgets generally correlate with higher campaign success.
 
 │── Dataset/
 
+ 
 │ └── Marketing Campaign Performance Dataset.xlsx
+
 │
-│── PBIX/
+│── Report/
 
 │ └── Marketing Campaign project.pbix
+
 │
 │── Screenshots/
 
