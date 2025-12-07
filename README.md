@@ -104,6 +104,7 @@ Campaign Success Rate = DIVIDE([Campaign success], [Number of Campaign])
 ## Data Dictionary
 
 | Column Name | Description |
+
 |---|---|
 | Campaign_ID | Unique campaign identifier |
 
