@@ -104,18 +104,13 @@ Campaign Success Rate = DIVIDE([Campaign success], [Number of Campaign])
 ## Data Dictionary
 
 | Column Name | Description |
-
 |---|---|
+
 | Campaign_ID | Unique campaign identifier |
-
 | Channel | Marketing channel (Email, Radio, TV, etc.) |
-
 | Audience_Size | Estimated audience reached |
-
 | Budget | Campaign budget |
-
 | Duration_Days | Campaign duration in days |
-
 | Campaign_Success | Binary target (1 = success, 0 = no) |
 
 ## 🛠 Tools & Technologies
