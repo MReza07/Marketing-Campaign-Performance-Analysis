@@ -105,7 +105,6 @@ Campaign Success Rate = DIVIDE([Campaign success], [Number of Campaign])
 
 | Column Name | Description |
 |---|---|
-
 | Campaign_ID | Unique campaign identifier |
 | Channel | Marketing channel (Email, Radio, TV, etc.) |
 | Audience_Size | Estimated audience reached |
